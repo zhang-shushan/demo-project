@@ -1,8 +1,8 @@
 from pydantic import SecretStr
 
-TONGYI_MODEL = "qwen3.7-flash"
+TONGYI_MODEL = "qwen3.7-plus"
 
-TONGYI_API_KEY = SecretStr("你的tongyi大模型API Key")
+TONGYI_API_KEY = SecretStr("sk-ws-H.PDLHXYI.1fEg.MEQCIBhe-QJtstwVGRRj-ZfWXNqWUzgCfzlu1fe4G61SZKikAiBokF8CkNp4gmNFKTkIjlzU_8DqxBegV4rARiXrZTNjMQ")
 
 TONGYI_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 

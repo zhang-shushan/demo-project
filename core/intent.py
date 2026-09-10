@@ -72,7 +72,7 @@ class IntentRecognizer:
         text = text.strip()
         try:
             return json.loads(text)
-        except json.JSONDecoder:
+        except json.JSONDecodeError:
             pass
 
         # 如果解析失败，尝试从模型输出中提取json字符串
